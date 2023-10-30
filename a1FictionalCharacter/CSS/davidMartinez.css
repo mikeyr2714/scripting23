@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron&display=swap');
+
+/*************************************************header************************************************/
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+#title {
+    color: rgb(224, 214, 214);
+    background-color: #453b80;
+    padding: 10px;
+}
+
+section {
+    background-color: #191435;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    /* height: auto; */
+    overflow: hidden;
+}
+
+
+/**************************************************body***************************************************/
+body {
+    background-image: linear-gradient(to right bottom, #cfcf1e, #c1d415, #c2f900, #9ff600, #77f200, #47ec5b, #10e385, #00d9a2, #00c5cd, #00acfa, #008aff, #2a56f2);
+    font-family: 'Black Ops One', cursive;
+    color: yellow;
+}
+
+.alternateBG {
+    background-color: #291792;
+}
+
+a {
+    color: white;
+}
+
+a,
+a:visited {
+    color: #10e385;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    color: rgb(240, 240, 14)
+}
+
+h3 {
+    font-size: 25px;
+    color: black;
+}
+
+h5 {
+    font-size: 15px;
+    color: #4eb91c;
+}
+
+#about {
+    color: #47ec5b;
+}
+
+#skills {
+    color: #77f200;
+
+}
+
+/***********************************************************nav************************************************/
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(55, 55, 87);
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #2a56f2;
+}
+
+/************************************************************************images*********************************************/
+/* #edgerunnercrew {
+    float: left;
+    padding-right: 100px;
+}
+
+#rebecca {
+    float: right;
+}
+
+#adamsmasher2 {
+    float: right;
+}
+
+#wakakoimg {
+    float: right;
+}
+
+#lucyanddavid {
+    float: right;
+} */
+#davidmartinez{
+   float: right;
+}
+div{
+    width:auto;
+    float: left;
+    /* background-color: red; */
+    text-align: center;
+}
+/******************************************************************************footer**********************************************/
+footer {
+    padding: 10px;
+    text-align: left;
+    background-color: #453b80;
+}
