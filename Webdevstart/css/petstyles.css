@@ -1,0 +1,10 @@
+header{
+    background-image: url('../images/Andrew.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.bg-purple{
+    background-color: rgb(99, 19, 173);
+}
