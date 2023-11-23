@@ -3,7 +3,7 @@
 
 
 #masthead {
-    background-image: url('../Images/Kamloops\ Sign.jpg');
+    background-image: url('../Images/KamloopsSign.jpg');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -12,13 +12,13 @@
 }
 
 #about {
-    background-image: url('../Images/River\ Valley.jpg');
+    background-image: url('../Images/RiverValley.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #geography {
-    background-image: url('Images/Thompson River.JPG');
+    background-image: url('Images/ThompsonRiver.JPG');
     background-position: center;
 }
 
@@ -29,12 +29,12 @@
 }
 
 #economy {
-    background-image: url( 'Images/Forest Hills.jpg');
+    background-image: url( 'Images/ForestHills.jpg');
     background-position: center;
     color: black;
 }
 #attractions{
-    background-image: url('Images/Riverside Park Map.jpg');
+    background-image: url('Images/RiversideParkMap.jpg');
     background-position: center;
 }
 
