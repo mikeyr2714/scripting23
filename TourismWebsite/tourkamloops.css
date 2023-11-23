@@ -18,23 +18,23 @@
 }
 
 #geography {
-    background-image: url('Images/ThompsonRiver.JPG');
+    background-image: url('..Images/ThompsonRiver.JPG');
     background-position: center;
 }
 
 #people {
-    background-image: url('/Images/Festival.jpg');
+    background-image: url('../Images/Festival.jpg');
     background-position: center;
 
 }
 
 #economy {
-    background-image: url( 'Images/ForestHills.jpg');
+    background-image: url( '../Images/ForestHills.jpg');
     background-position: center;
     color: black;
 }
 #attractions{
-    background-image: url('Images/RiversideParkMap.jpg');
+    background-image: url('../Images/RiversideParkMap.jpg');
     background-position: center;
 }
 
