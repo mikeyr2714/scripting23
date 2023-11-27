@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Black+Ops+One&family=Poppins&display=swap');
+
+
+
+#masthead {
+    background-image: url('Images/KamloopsSign.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    font-size: 72px;
+
+}
+
+#about {
+    background-image: url('Images/RiverValley.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#geography {
+    background-image: url('Images/ThompsonRiver.JPG');
+    background-position: center;
+}
+
+#people {
+    background-image: url('Images/Festival.jpg');
+    background-position: center;
+
+}
+
+#economy {
+    background-image: url( 'Images/ForestHills.jpg');
+    background-position: center;
+    color: black;
+}
+#attractions{
+    background-image: url('Images/RiversideParkMap.jpg');
+    background-position: center;
+}
+
+
+h1 {
+    font-family: 'Agbalumo';
+    font-size: 112px;
+    color: rgb(245, 189, 8);
+
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+    font-family: 'Poppins';
+}
+
+p {
+   font-size: 24px;
+   background-color: black;
+   padding: 10px;
+   border-radius: 20px;
+   margin: 15px;
+}
+
+
+.bg-purple {
+    background-color: rgb(182, 117, 32);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+footer {
+    background-color: #bbb33d;
+    padding: 25px;
+}
