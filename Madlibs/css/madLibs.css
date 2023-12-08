@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron&display=swap');
+
+header,
+p {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    background-color: rgb(233, 159, 116);
+    padding: 5px;
+    width: 60vw;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+h4 {
+    font-family: 'Black Ops One', cursive;
+}
+
+body {
+    background-image: linear-gradient(to top, #f2f54a, #5bf568, #22f5bb, #5df1f5, #4f9df5);
+}
+
+#content {
+    background-color: white;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 20px;
+    /* height: auto; */
+    overflow: hidden;
+    border-radius: 30px;
+margin: 10px auto;
+}
+
+#finalstory {
+    background-color: white;
+    width: 60vw;
+    margin: 10px auto;
+    padding: 20px;
+    /* height: auto; */
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    width: 60vw;
+    margin: 10px auto;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30px;
+}

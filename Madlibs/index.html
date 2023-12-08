@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/madLibs.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Mad Libs</title>
+
+</head>
+
+<body>
+    <header id="header">
+        <p>MAD LIBS</p>
+    </header>
+
+    <section id="content">
+        <form action="javascript:write();">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="madeuptown">Noun(made up town name)</label>
+                            <input class="form-control" type="text" id="input1">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="humannoise">Adjective (Noise humans can make-past tense)</label>
+                            <input class="form-control" type="text" id="input2">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="animal">Animal</label>
+                            <input class="form-control" type="text" id="input3">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="inanimate">Noun (inanimate object brought to life)</label>
+                            <input class="form-control" type="text" id="input4">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="fightingaction">Verb (Fighting Action)</label>
+                            <input class="form-control" type="text" id="input5">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="fleeingaction">Verb (fleeing action)</label>
+                            <input class="form-control" type="text" id="input6">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="business">Place of business</label>
+                            <input class="form-control" type="text" id="input7">
+
+                        </div>
+                        <div class="form-group">
+
+                            <label for="unsualhiding">Noun (unusual spot to hide)</label>
+                            <input class="form-control" type="text" id="input8">
+
+                        </div>
+
+
+                    </div> <!--ends the column-->
+
+                    <div class="col-sm-6">
+
+
+
+                        <div class="form-group">
+
+                            <label for="oddsound">Verb (odd sound you wouldn't normally hear)</label>
+                            <input class="form-control" type="text" id="input9">
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="differentbusiness">Different place of business</label>
+                            <input class="form-control" type="text" id="input10">
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="pieceofclutter">Noun (Random piece of clutter)</label>
+                            <input class="form-control" type="text" id="input11">
+
+                        </div>
+                        <div class="form-group">
+
+                            <label for="videogame">Video Game</label>
+                            <input class="form-control" type="text" id="input12">
+
+                        </div>
+                        <div class="form-group">
+
+                            <label for="favouritedish">Favourite Dish (food)</label>
+                            <input class="form-control" type="text" id="input13">
+
+                        </div>
+
+
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="celebrity" value="Ryan Reynolds">Ryan
+                                Reynolds
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="celebrity"
+                                    value="Dwayne Johnson">Dwayne
+                                Johnson
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="celebrity" value="Jack Black">Jack
+                                Black
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="celebrity"
+                                    value="Robert DowneyJr">Robert
+                                Downey
+                                Jr
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-block btn-danger">Finish your Story!</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
+    </section>
+    <section id="finalstory">
+        <h2>Congratulations! You have completed the MadLibs!</h2>
+        <h3>See below for your finished story!</h3>
+
+        <div class="row">
+            <div id="output" class="col-sm-12">
+                <h4></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div id="output2" class="col-sm-12">
+                <h4></h4>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Made by Michael Roy</h4>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Made for Scripting Multimedia Class at Lethbridge College</h4>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Made 2023</h4>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="Javascript/madLibs.js"></script>
+</body>
+
+</html>
